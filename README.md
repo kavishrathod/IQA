@@ -1,4 +1,4 @@
-# No-Reference Image Quality Assessment (IQA) for Exposure Fusion
+# Image Quality Assessment (IQA) for Exposure Fusion
 
 This repository contains the implementation of a No-Reference Image Quality Assessment (IQA) model specifically designed for exposure fusion images. The project proposes a novel CNN-based framework that predicts image quality scores without any reference image, combining both quantitative analysis and human perception-based learning.
 
