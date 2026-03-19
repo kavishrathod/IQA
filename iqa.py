@@ -19,7 +19,7 @@ def rgb_to_hsv(image):
     denominator = np.where(V != 0, V, 1.0)
     S = (V - np.min(image_normalized, axis=2)) / denominator
 
-    # Compute Hue (H)
+    # Compute Hue (H using RGB)
     delta_R = (V - R) / (6 * denominator + 1e-10) + 1.0
     delta_G = (V - G) / (6 * denominator + 1e-10) + 1.0
     delta_B = (V - B) / (6 * denominator + 1e-10) + 1.0
